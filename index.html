@@ -4,35 +4,90 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>KALKULATOR BMI</title>
   </head>
   <body>
     <!-- Main Title  -->
-    <header>
+    <header class="main-title">
       <h1>KALKULATOR BMI</h1>
     </header>
     <main>
-      <!-- Main Article -->
-      <article></article>
-      <!-- Form -->
-      <section></section>
-      <!-- Form Article -->
-      <article></article>
-      <!-- Result Article -->
-      <article>
-        <header>
-          <h1>Result</h1>
-        </header>
-        <!-- Result Section  -->
-        <section></section>
-        <!-- Result Article  -->
-        <article></article>
-        <!-- result section -->
-        <section></section>
-      </article>
+      <!-- Left Contens -->
+      <section class="main-content">
+        <!-- Main Article -->
+        <article>
+          <p>
+            Berat badan ideal adalah impian semua orang. Tidak hanya memilik
+            bentuk tubuh yang menunjang penampilan. Berat badan ideal juga
+            menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk hitung
+            sekarang di kalkulator BMI
+          </p>
+        </article>
+        <!-- Form -->
+        <section>
+          <form action="">
+            <div>
+              <label for="sex">Jenis Kelamin</label> <br />
+              <input type="radio" id="selection-man" name="sex" />
+              <label for="selection-man">Pria</label>
+              <input type="radio" id="selection-woman" name="sex" />
+              <label for="selection-woman">Wanita</label><br />
+            </div>
+            <div>
+              <label for="input-berat-badan">Berat Badan (Kg)</label>
+              <input type="number" name="" id="input-berat-badan" />
+            </div>
+            <div>
+              <label for="input-usia">Usia (thn)</label>
+              <input type="number" name="" id="input-usia" />
+            </div>
+            <div>
+              <label for="input-tinggi-badan">Tinggi Badan (cm)</label>
+              <input type="number" name="" id="input-tinggi-badan" />
+            </div>
+            <div>
+              <button>Submit MBI</button>
+              <button type="reset">Reset</button>
+            </div>
+          </form>
+        </section>
+        <!-- Form Article -->
+        <article class="main-fitur">
+          <h2>Keunggulan Fitur</h2>
+          <ol type="1">
+            <li>Menghitung Berat Badan</li>
+            <li>Menentukan Berat Badan Ideal Atau Tidak</li>
+            <li>Mempersiapkan program penurunan berat badan</li>
+          </ol>
+          <p></p>
+        </article>
+      </section>
+      <!-- left content end -->
+      <!-- Right Content  -->
+      <section class="main-content">
+        <!-- Result Article -->
+        <article>
+          <header>
+            <h1>Result</h1>
+          </header>
+          <!-- Result Section  -->
+          <section>
+            <p>Hasil Result Adalah</p>
+            <h2>24.5</h2>
+            <p>Anda gemuk</p>
+          </section>
+          <!-- Result Article  -->
+          <article></article>
+          <!-- General Information -->
+          <section></section>
+        </article>
+      </section>
+      <!-- right content end  -->
     </main>
 
-    <footer></footer>
+    <footer>
+      <h2>Suparmin</h2>
+    </footer>
   </body>
 </html>

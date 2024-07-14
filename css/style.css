@@ -1,0 +1,85 @@
+.main-title {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.main-content {
+  border: 1px solid;
+  flex: 1;
+}
+div {
+  border-radius: 2px;
+  background-color: #779dc9;
+  padding: 10px;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 2px;
+  padding: 10px;
+  text-indent: 50px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #fcfbfb;
+  background-color: #2f4272;
+}
+h2 {
+  margin: 2px;
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #fcfbfb;
+  background-color: #2f4272;
+}
+
+p {
+  margin: 2px;
+  padding: 10px;
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  color: #050505;
+  background-color: #b9d8f9;
+}
+
+button {
+  background-color: #262c52; /* Green */
+  border: none;
+  width: 180px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.main-fitur {
+  margin: 2px;
+  padding: 10px;
+  color: #050505;
+  background-color: #b9d8f9;
+}
+
+footer {
+  margin: 2px;
+  padding: 10px;
+  text-align: center;
+  color: #fcfbfb;
+  background-color: #2f4272;
+}
